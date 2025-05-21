@@ -1,4 +1,4 @@
-# Lin-etwork.scan 🔍
+# Lin_netscan 🔍
 
 A fast multithreaded port scanner built in Python.
 
