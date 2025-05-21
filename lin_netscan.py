@@ -40,12 +40,10 @@ def main():
         print("Exiting.......")
 
 def banner():
-    for i in range(3):
-        print("\033[92m-\033[0m" * 80)
-    print(pyfiglet.figlet_format("Lin.Net.Scan",font = 'cyberlarge'),end= '')
-    print("\033[91m", datetime.now().strftime("%Y-%m-%d"), "\033[0m")
-    for i in range(3):
-        print("\033[92m-\033[0m" * 80)
+    print("\033[92m-\033[0m" * 55)
+    print(pyfiglet.figlet_format("Lin.Net.Scan",font = 'drpepper'),end= '')
+    print("\033[91mAuthor:\033[0m\033[92mheartlin\033[0m \033[92mgardon\033[0m\t\t\t\033[94m", datetime.now().strftime("%Y-%m-%d"), "\033[0m")
+    print("\033[92m-\033[0m" * 55)
 
 def scanner(ipandport):
     host,port = ipandport
